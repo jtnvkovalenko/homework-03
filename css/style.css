@@ -1,0 +1,162 @@
+/* Сброс правил, взял пример с занятий*/
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    box-sizing: inherit;
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-size: 0px;
+}
+    /* Задаю font-size: 0px; для body - чтоб убрать зазор в 4px, 
+    чтоб выровнять блоки по макету, подсказала Юля из конспектов. */
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 32px;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Шрифты для текстов */
+
+/* font-family: "Playfair Display", serif; */
+/* font-family: "Ubuntu", sans-serif; */
+
+/* Задаю свои правила, прописанным мною классам*/
+/* Меню навигации */
+
+.header {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.navigation {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.navigation__list {
+    text-align: center;
+}
+
+.navigation__list-item {
+    display: inline-block;
+    padding-top: 76px;
+    padding-bottom: 102px;
+}
+
+.navigation__list-item:not(:last-child) {
+    margin-right: 110px;
+}
+
+.navigation__list-link {
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #626262;
+    text-transform: uppercase;
+}
+
+.navigation__list-link:hover,
+.navigation__list-link:focus {
+    color: #03a9f4;
+}
+
+/* Перехожу к мэйну */
+
+.section__wrapper {
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 58px;
+}
+
+.wrapper__block {
+    display: inline-block;
+    width: 420px;
+    margin-bottom: 124px;
+
+}
+
+.wrapper__block:not(:last-child) {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.wrapper__block:nth-child(2n) {
+    margin-right: 0;
+}
+
+.wrapper__block:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+}
+
+.wrapper__descriptions {
+    font-size: 30px;
+    font-weight: lighter;
+    line-height: 1.2;
+    color: #626262;
+}
+
+.wrapper__subtitle {
+    font-family: "Ubuntu", "Times New Roman", sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: lighter;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    /* margin-bottom: 26px; */
+}
+
+p {
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+}
+
+/* Кнопка */
+
+.container__button {
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.modal__btn {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #626262;
+    width: 164px;
+    height: 60px;
+    padding: 0;
+}
+
+.modal__btn button {
+    border-width: 1px;
+    border-color: #626262;
+    border-style: solid;
+    background-color: transparent;
+}
