@@ -139,7 +139,14 @@ p {
 
 button:hover {
     border-width: 1px;
+    background-color: #ffffff;  
     border-color: #626262;
     border-style: solid;
-    background-color: transparent;
 }
+
+/* button:hover {
+    background-color: #ffffff;
+    border-width: 1px;
+    border-color: #626262;
+    border-style: solid;
+} */
