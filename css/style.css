@@ -135,18 +135,13 @@ p {
     width: 164px;
     height: 60px;
     padding: 0;
+    cursor: pointer;
 }
 
-button:hover {
+button {
     border-width: 1px;
-    background-color: #ffffff;  
     border-color: #626262;
     border-style: solid;
-}
-
-/* button:hover {
     background-color: #ffffff;
-    border-width: 1px;
-    border-color: #626262;
-    border-style: solid;
-} */
+    cursor: pointer;
+}
