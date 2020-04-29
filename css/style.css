@@ -46,6 +46,7 @@ a {
 
 .navigation__list {
     text-align: center;
+    display: block;
 }
 
 .navigation__list-item {
